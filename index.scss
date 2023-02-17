@@ -41,19 +41,30 @@
 }
 
 .osjs-window {
-  @include window;
+  // @include window;
+  background: #c75050;
 
-  border-radius: 0;
+  border-radius: 4px;
+  box-shadow: 
+    0px 0px  1px  1px rgb(0 0 0 / 50%),
+    0px 0px  2px  2px rgb(0 0 0 / 50%),
+    0px 0px  4px  4px rgb(0 0 0 / 50%),
+    0px 0px  8px  8px rgb(0 0 0 / 50%),
+    0px 0px 16px 16px rgb(0 0 0 / 50%);
 
   &[data-focused=false] {
-    opacity: 0.5;
+    box-shadow: 
+    0px 0px  1px  1px rgb(0 0 0 / 50%),
+    0px 0px  2px  2px rgb(0 0 0 / 50%),
+    0px 0px  4px  4px rgb(0 0 0 / 50%),
+    0px 0px  8px  8px rgb(0 0 0 / 50%);
   }
 
   &[data-loading=true] {
     pointer-events: none;
 
     &::after {
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.2);
     }
   }
 }
