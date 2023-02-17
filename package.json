@@ -1,7 +1,7 @@
 {
-  "name": "@osjs/windows8-theme",
+  "name": "@jsos/modern-light-theme",
   "version": "4.0.6",
-  "description": "OS.js v3 Windows 8 Style Theme",
+  "description": "js.OS Modern Light Theme",
   "files": [
     "dist/",
     "metadata.json"
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/os-js/osjs-windows8-theme.git"
+    "url": "git+https://github.com/morhajlyk/jsos-modern-light-theme.git"
   },
   "keywords": [
     "osjs"
@@ -28,9 +28,9 @@
   "author": "Anders Evenrud <andersevenrud@gmail.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/os-js/osjs-windows8-theme/issues"
+    "url": "https://github.com/morhajlyk/jsos-modern-light-theme/issues"
   },
-  "homepage": "https://github.com/os-js/osjs-windows8-theme#readme",
+  "homepage": "https://github.com/morhajlyk/jsos-modern-light-theme#readme",
   "osjs": {
     "type": "package"
   },
