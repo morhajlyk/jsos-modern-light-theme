@@ -1,3 +1,7 @@
 dist/
 .tern-*
 node_modules
+index.bat
+index.css
+src/_variables.css
+.vscode/extensions.json

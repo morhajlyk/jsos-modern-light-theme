@@ -1,0 +1,1 @@
+copy "c:\Users\morha\OneDrive\Documents\GitHub\jsos-modern-light-theme\index.css" "c:\Users\morha\OneDrive\Documents\GitHub\js.OS\node_modules\@osjs\windows8-theme\dist\main.css"
