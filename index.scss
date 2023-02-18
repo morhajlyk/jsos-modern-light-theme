@@ -42,7 +42,7 @@
 
 .osjs-window {
   // @include window;
-  background: #c75050;
+  // background: #c75050;
 
   border-radius: 4px;
   box-shadow: 
@@ -64,7 +64,7 @@
     pointer-events: none;
 
     &::after {
-      background: rgba(0, 0, 0, 0.2);
+      background: rgba(0, 0, 0, 0.5);
     }
   }
 }
